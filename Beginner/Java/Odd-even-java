@@ -1,0 +1,26 @@
+//Taking user input to find number is even or odd
+
+package JAVA;
+
+import java.util.Scanner;
+
+public class evenOdd {
+
+	public static void main(String[] args) {
+		
+		int n;
+	    System.out.println("Enter any number:");
+
+	   
+	    Scanner input = new Scanner(System.in);
+	    n = input.nextInt();
+
+
+	    if ( n % 2 == 0 )
+	        System.out.println("Number is even");
+	     else
+	        System.out.println("Number is odd");
+
+	}
+
+}
