@@ -2,6 +2,7 @@
 
 # program to check the whether the person is an adult, teen or a child
 
+print('**********Welcome to the program to check your age group**********')
 age = int(input('Enter your age : '))
 
 if age>18:
