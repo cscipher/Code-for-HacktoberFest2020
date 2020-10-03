@@ -37,7 +37,7 @@ There are 4 types of problems in this repository
 
 <ul>
   <li>Inversion (mirror) of a Binary tree</li>
-  <li>Binary Search</li>
+  <li>Binary Searchh</li>
   <li>Quick Sort</li>
   <li>Flip the bits of a given number</li>
 </ul>
