@@ -1,7 +1,5 @@
 #github username-mahijain21
 
-import java.util.Scanner;
-
 public class AgesScanner {
 	public static void main(String Args[]) {
 		System.out.print("Enter the Age: ");
