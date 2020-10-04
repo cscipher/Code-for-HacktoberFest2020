@@ -12,6 +12,7 @@ Write programs in your preferred coding language (under a specific directory).
   <li>Upload your solution file under specific directory (or create one directory of specific language if not there) with a comment having your Github username on the top of file </li>
   <li>Commit the changes </li>
   <li>Create a PR </li>
+  <li>[NOTE : MAX. 2 PRs WOULD BE SELECTED UNDER ONE CATEGORY]</li>
 </ol>
 
 ## Getting Started
