@@ -41,6 +41,7 @@ There are 4 types of problems in this repository
   <li>Inversion (mirror) of a Binary tree</li>
   <li>Binary Search</li>
   <li>Quick Sort</li>
+  <li>BOGO-sort</li>
   <li>Flip the bits of a given number</li>
 </ul>
 
