@@ -1,6 +1,5 @@
 #github username-mahijain21
 
-import java.util.Scanner;
 public class Odd_Even 
 {
     public static void main(String[] args) 
