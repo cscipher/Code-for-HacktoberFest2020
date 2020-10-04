@@ -1,0 +1,19 @@
+//Mygithub-IshikaT21
+
+#include<stdio.h>
+int main()
+{
+	int number;
+	
+	printf("Enter any number to find it is even or odd\n");
+	
+	scanf("%d", &number);
+	{
+		if(number%2==0)
+		printf("It is even.");
+		else
+		printf("It is odd.");
+	}
+    
+	return 0;
+}
