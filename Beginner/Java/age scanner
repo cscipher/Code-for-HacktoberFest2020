@@ -6,7 +6,7 @@ public class AgesScanner {
 		Scanner in = new Scanner(System.in);
 		int i = in.nextInt();
 		in.close();
-		if (i < 10) {
+		if (i < 10 && i>0) {
 			System.out.println("child");
 		} else if (i > 10 && i <= 18) {
 			System.out.println("teen");
