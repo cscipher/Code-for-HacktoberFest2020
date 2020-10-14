@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void swap(int &a,int &b)
+void swap(int &a,int &b) // function to swap two values
 {
     int t;
     t=a;
@@ -11,7 +11,7 @@ void swap(int &a,int &b)
 
 void bubble_sort(int arr[], int n)
 {
-    bool done;
+    bool done; // "done" variable is used to know if swaping took place or not
     do
     {
         done=false;
@@ -43,6 +43,6 @@ int main()
      {
          cout<<arr[i]<<", ";
      }
-     cout<<"\b.";
+     cout<<"\b."; // to remove the "," after the last element and add "."
      return 0;
 }
