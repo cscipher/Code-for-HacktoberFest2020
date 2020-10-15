@@ -1,0 +1,18 @@
+#ocarian
+# code for validating binary tree
+import sys
+class node:
+    def __init__(self,data):
+        self.data=data
+        self.left=None
+        self.right=None
+max=sys.maxsize
+min=-(sys.maxsize+1)
+
+def validate(node,min, max):
+    if node==None:
+        return True
+    if node.data<min or node.data>max:
+        return False
+    return validate(node.left,min,node.data-1) and validate(node.right,node.data+1,max)
+
