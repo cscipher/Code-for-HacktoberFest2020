@@ -1,0 +1,26 @@
+#include <iostream>
+ 
+int main() {
+ 
+    int age;
+ 
+    std::cout << "--------------------------------------" << std::endl;
+    std::cout << "\t Check My Age" << std::endl;
+    std::cout << "--------------------------------------" << std::endl;
+ 
+    std::cout << "\nInput Your Age : ";
+    std::cin >> age;
+ 
+    if(umur > 17) {
+ 
+        std::cout << "\nYour Age 17, You can watch film 18+." << std::endl;
+ 
+    } else {
+ 
+        std::cout << "\nYour are child, waiting" << (17 - age) << " years." << std::endl;
+    }
+ 
+    std::cout << std::endl;
+ 
+    return 0;
+}
