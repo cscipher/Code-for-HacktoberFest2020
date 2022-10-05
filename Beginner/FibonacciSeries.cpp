@@ -1,33 +1,32 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-
-class Fibonacci {
-
+ 
+class FibonacciSeries{
+     
 public:
-	int a, b, c;
-	void generate(int);
+int fib(int n)
+{
+  
+    int f[n + 2];
+    int i;
+ 
+    f[0] = 0;
+    f[1] = 1;
+ 
+    for(i = 2; i <= n; i++)
+    {
+       f[i] = f[i - 1] + f[i - 2];
+    }
+    return f[n];
+    }
 };
+ 
 
-void Fibonacci::generate(int n)
+int main ()
 {
-	a = 0;
-	b = 1;
-
-	cout << a << " " << b;
-
-	for (int i = 1; i <= n - 2; i++) {
-		c = a + b;
-		cout << " " << c;
-		a = b;
-		b = c;
-	}
-}
-
-int main()
-{
-	int n = 9;
-
-	Fibonacci fib;
-	fib.generate(n);
-	return 0;
+    FibonacciSeries g;
+    int n = 9;
+     
+    cout << g.fib(n);
+    return 0;
 }
